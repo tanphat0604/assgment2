@@ -1,0 +1,96 @@
+<html>
+    <head>
+        <style>
+            #hm {
+                background-color: aquamarine;
+                width: 600px;
+                border:2px  solid;
+                border-radius: 30px;
+                font-size: 22px;
+                margin: auto;
+        }
+           
+            h2{ width: 599px;
+                border-radius: 20px 20px 0px 0px ;
+               
+           
+            text-align: center;
+            padding-bottom: 10px;
+            padding-top: 15px;
+            margin: auto;
+        }
+
+          #frmdangky{width: 600px;   
+            margin: auto;           
+            }
+            #frmdangky label{
+                padding-left: 10px;
+                width:150px; display: inline-block; color: darkorange;
+            }
+            #frmdangky .txt{
+                width: 400px ; border: 1px solidn darkorange; padding: 10px;
+            }
+            #frmdangky button{
+                width: 150px; height: 40px; font-size: lem;
+                background-color: rgb(15, 117, 83);
+                color: aliceblue;
+            }
+            .txt{
+                border-radius: 30px;
+                background-color: rgb(241, 169, 101);
+            }
+            button{border-radius: 30px;
+            }
+            .gh{
+              left: 165px;
+              position: relative;
+                bottom:45px;
+        
+            }
+            .gc{
+                position: relative;
+                bottom: 70px;
+            }
+           
+        </style>
+    </head>
+    <body>
+        
+        <div id="hm">
+        <form action="xult.php" id = "frmdangky" method="post">
+            <h2>HỎI ĐÁP</h2>
+            
+            <p>
+                <label> Họ và tên</label>
+                <input type="tex" class="txt"  placeholder="Họ tên">
+            </p>  
+            <p>
+                <label> Email</label>
+                <input type="tex" class="txt"  placeholder="...@gmail.com">
+            </p>
+          
+            <p>
+                <label>Phái</label>
+                <input type="radio" value="0" name="phai" checked>Nữ
+                <input type="radio" value="1" name="phai"> Nam
+            </p>
+            
+           
+           
+            </p> 
+            <p>
+                <label class="gc">Nhập câu hỏi</label>
+                <textarea cols="30" rows="5"></textarea>
+                
+                
+
+            </p>
+            <p id="hc">
+                <label> </label>
+                <button  type="submit"> Gửi </button>
+                
+            </p>
+        </form>
+    </div>
+    </body>
+</html>

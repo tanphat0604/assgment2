@@ -1,0 +1,110 @@
+<html>
+    <head>
+        <style>
+    
+            #frmdangky{   
+            margin: auto;  
+            background-color: aquamarine;
+                width: 600px;
+
+                height: 400;
+                border:2px  solid;
+                border-radius: 30px;
+                font-size: 22px;
+                margin: auto;         
+            }
+            #frmdangky label{
+
+                padding-left: 10px;
+                width:150px; display: inline-block; color: darkorange;
+            }
+            #frmdangky .txt{
+                
+                width: 400px ; border: 1px solidn darkorange; padding: 10px;
+            }
+            #frmdangky button{
+                width: 150px; height: 40px; font-size: lem;
+                background-color: rgb(6, 133, 84);
+                color: aliceblue;
+            }
+            .txt{
+                
+                border-radius: 30px;
+                background-color: rgb(241, 169, 101);
+            }
+            h2{text-align: center;}
+            .gn{
+                left: 165px;
+              position: relative;
+            
+                }
+              button{
+                  border-radius: 30px;
+              } 
+              .dn{
+                  position: relative;
+                 
+                } 
+                .qmk{
+                   
+                    left: 400px;
+                    position: relative;
+                    bottom: 39px;
+                }
+                .dk{
+                    color: blue;
+                    left: 150px;
+                    position: relative;
+                    top: 10px;
+                } 
+                .qmk a{
+                    color: blue;
+                    text-decoration: initial;
+                }
+                .dk a{
+                    color: blue;
+                    text-decoration: initial;
+                }
+                .dk a:hover{
+                    box-shadow: 0 3px red; 
+                    text-transform: uppercase; 
+                    color:rgb(238, 27, 27);
+               
+                }
+                .qmk a:hover{
+                    box-shadow: 0 3px red; 
+                    text-transform: uppercase; 
+                    color:rgb(238, 27, 27);
+                    
+                }
+                
+        </style>
+    </head>
+    <body>
+        <div id="hm">
+            <form action="xult.php" id = "frmdangky" method="post">
+                <h2>ĐĂNG NHẬP TÀI KHOẢN</h2>
+                <P>
+                    <label> Tên đăng nhập</label>
+                    <input type="text" class="txt" minlength="4" maxlength="20" placeholder="Nhập từ 4 dến 20 ký tự" name="un">
+                </P>
+                <p>
+                    <label> Mật khẩu</label>
+                    <input type="tex" class="txt" placeholder="Nhập từ 8 đến 20 ký tự"  name="pw" minlength="8" maxlength="20">
+                </p>
+                <p class="gn">
+                    <input type="checkbox" checked> Ghi nhớ <br>
+                   
+                    
+                </p>
+                <p class="dn">
+                    <label> </label>
+                    <button  type="submit"> Đăng nhập</button>
+                </p>
+                <p class="dk"><a href="dangky.html" target="page" class="csw-btn-button" rel="nofollow" target="_blank" >Đăng ký tài khoản </a></p>
+                <p class="qmk"><a href="quenmatkhau.html" target="page" class="csw-btn-button" rel="nofollow" target="_blank" >Quên mật khẩu</a></p>
+            </form>
+        </div>    
+        
+    </body>
+</html>     
